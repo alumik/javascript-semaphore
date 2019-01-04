@@ -1,4 +1,4 @@
-importScripts('./semaphore.js')
+importScripts('../lib/semaphore.js')
 
 onmessage = msg => {
     const index = msg.data.index
