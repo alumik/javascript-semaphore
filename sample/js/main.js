@@ -4,7 +4,7 @@ const mutex = new Semaphore(1)
 workers = []
 
 for (let i = 0; i < 4; i++) {
-    workers.push(new Worker('./worker.js'))
+    workers.push(new Worker('./js/worker.js'))
 }
 
 for (let i = 0; i < 4; i++) {
